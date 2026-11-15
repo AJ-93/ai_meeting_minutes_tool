@@ -46,6 +46,5 @@ model = AutoModelForCausalLM.from_pretrained(
 ## Usage
 
 1. Open the notebook in Colab and select `Runtime > Change runtime type > GPU`.
-2. Add `HF_TOKEN` to Colab Secrets and enable notebook access.
-3. Set `audio_file` to your audio path in Drive.
-4. Run all cells. The minutes render at the end of the notebook.
+2. Have `HF_TOKEN` ready for access to hugging face.
+3. Have the `audio_file` ready in your Drive.
